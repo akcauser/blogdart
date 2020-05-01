@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Ertuğrul Gazi Akça - PHP Developer
   <br>Yazılım serüveninde karşılaştığım hatalar, bulduğum çözümler ve nasıl 
   yapılır gibi soruların cevaplarını burada paylaşmaktayım.
+  <br> Bu linkte benimle ilgili birkaç şey mevcut. <a href="http://ertugrulgaziakca.com/cv">Hakkımda</a>
 show_excerpts: true # set to true to show excerpts on the homepage
   
 paginate: 7
