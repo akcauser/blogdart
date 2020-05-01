@@ -1,0 +1,46 @@
+title: Blogdart
+author: Ertuğrul Gazi AKÇA
+email: akcaertugrulgazi@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Ertuğrul Gazi Akça - PHP Developer
+  <br>Yazılım serüveninde karşılaştığım hatalar, bulduğum çözümler ve nasıl 
+  yapılır gibi soruların cevaplarını burada paylaşmaktayım.
+show_excerpts: true # set to true to show excerpts on the homepage
+  
+paginate: 7
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: akcauser-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://instagram.com/ertugrulgaziakca
+      icon: instagram
+      color: cyan
+    - url: https://linkedin.com/in/ertugrulgaziakca
+      icon: linkedin
+      color: red
+    - url: https://github.com/akcauser
+      icon: github-square
+      color: purple
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
+ - jekyll/tagging
