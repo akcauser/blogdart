@@ -10,8 +10,7 @@ layout: default
         <div class="post-link-wrapper">
           <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a>
           <div class="post-meta">
-            <p>{% site.plugins %}</p>
-            {% if site.plugins contains "jekyll/tagging" %}
+            <!-- {% if site.plugins contains "jekyll/tagging" %} -->
             <div class="post-tags">
                 <h2>Test tag</h2>
                 <a class="tag" href="123">tag1</a>
@@ -19,7 +18,7 @@ layout: default
                 <a class="tag" href="/tag/{{ tag }}/">{{ tag }}</a>
                 {% endfor %}
             </div>
-            {% endif %}
+            <!-- {% endif %} -->
             {% if site.date_format %}
               {{ post.date | date: site.date_format }}
             {% else %}
