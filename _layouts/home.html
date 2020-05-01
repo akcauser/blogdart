@@ -10,7 +10,7 @@ layout: default
         <div class="post-link-wrapper">
           <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a>
           <div class="post-meta">
-
+            <p>{% site.plugins %}</p>
             {% if site.plugins contains "jekyll/tagging" %}
             <div class="post-tags">
                 <h2>Test tag</h2>
