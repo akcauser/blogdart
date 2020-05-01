@@ -1,0 +1,7 @@
+<div class="author-box">
+{% if site.plugins contains "liquid-md5" %}
+<img src="https://gravatar.com/avatar/{{ site.email | downcase | md5 }}?s=256" class="author-avatar" />
+{% endif %}
+{{ site.description }}
+<a class="site-title" rel="author" href="www.ertugrulgaziakca.com/cv">Hakkımda<b class="command_prompt"></b><b class="blinking_cursor">_</b></a>
+</div>
