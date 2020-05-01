@@ -1,10 +1,3 @@
----
-layout: post
-title:  "PHP Change Allowed Memory Size"
-description: How to change allowed memory size in PHP?
-tags: php memory
----
-
 If you have this error
 
 ```
